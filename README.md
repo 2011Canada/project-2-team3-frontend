@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# Pokeapp
+## Project Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pokeapp allows pokemon lovers to easily search for pokemons and craft their own teams!
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+* React
+* Typescript
+* Material-UI and Bootstrap
+* Spring Boot
+* Spring Data
+* Java 14.0.2
+* PostgreSQL 13.1
+* PokeAPI
+* Maven
+* Deployment Front-End/Back-End (AWS EC2 Docker)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# List of features ready
+* Users can login if they have an account or register for a new one!
+* User can log in 
+* User can log out
+* User can register
+* User can save their favourite pokemons.
+* User can create teams .
+* User can add pokemons to teams.
+* User can make changes to teams. 
+* User can make changes to favourites. 
+* User can search for pokemons using a type filter and without a filter
+* User can log out
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# To-do list:
+* User can see moves available to any pokemons and assign moves to any pokemons in their teams
+* User can compare two pokemons and see the advantage based on their types
+* User can filter pokemons by generations, game versions, and moves
 
-### `npm run build`
+* Users can view their own profile
+* User can upload picture on profile
+* User can change descriptions on profile
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributors ✨
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/anjiann"><img src="https://avatars.githubusercontent.com/u/22383088?s=460&u=14ea9e291448a7ebbd3a09e687746e0944efd9d2&v=4" width="100px;" alt=""/><br /><sub><b>Andy Jian</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/patelarj"><img src="https://avatars.githubusercontent.com/u/65750208?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Arjun Patel</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/lozinska"><img src="https://avatars.githubusercontent.com/u/49209351?s=460&u=568d0bb4113e1f6c91819ad7ddb33535e6246808&v=4" width="100px;" alt=""/><br /><sub><b>
+Krystyna Lopez</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/muhtasim123"><img src="https://avatars.githubusercontent.com/u/22604242?s=460&v=4" width="100px;" alt=""/><br /><sub><b>
+Muhtasim Chowdhury</b></sub></a><br /></td>
+</table>
 
-### `npm run eject`
+## Backend Code
+* [<https://github.com/2011Canada/project-2-team3-backend>](<https://github.com/2011Canada/project-2-team3-backend>)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project uses the following license: [<https://github.com/2011Canada/project-2-team3-frontend/blob/main/LICENSE>](<https://github.com/2011Canada/project-2-team3-frontend/blob/main/LICENSE>).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
